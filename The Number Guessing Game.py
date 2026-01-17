@@ -19,6 +19,7 @@ def play_game(max_attempts=None):
         if max_attempts and attempts >= max_attempts:
             print("LIMITS REACHED")
             print(f"The number was {random_integer}")
+            
             break
 
         print("TOO HIGH" if n > random_integer else "TOO LOW")
